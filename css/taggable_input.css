@@ -1,0 +1,108 @@
+ul.taggable-input-list {
+  overflow: hidden;
+  height: auto !important;
+  height: 1em;
+  width: 250px;
+  border: 1px solid #8496ba;
+  cursor: text;
+  font-size: 12px;
+  font-family: Verdana;
+  min-height: 1px;
+  z-index: 999;
+  margin: 0;
+  padding: 0 10px;
+  background-color: #fff;
+  list-style-type: none;
+  clear: left; }
+  ul.taggable-input-list li input {
+    border: 0;
+    width: 1px;
+    padding: 1px 0 3px 0;
+    background-color: white;
+    margin: 2px 0;
+    -webkit-appearance: caret; }
+
+li.taggable-input-token {
+  overflow: hidden;
+  height: auto !important;
+  height: 15px;
+  margin: 3px 0px;
+  background-color: #eff2f7;
+  color: #000;
+  cursor: default;
+  border: 1px solid #ccd5e4;
+  font-size: 11px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  float: left;
+  white-space: nowrap;
+  display: inline-block; }
+  li.taggable-input-token p {
+    color: black;
+    display: inline;
+    padding: 0 0 0 2px;
+    margin: 0; }
+  li.taggable-input-token span {
+    color: #a6b3cf;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer; }
+  li.taggable-input-token.unstyled-token {
+    border: none;
+    background-color: transparent;
+    margin: 3px 0;
+    padding: 1px 0px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    white-space: pre; }
+    li.taggable-input-token.unstyled-token p {
+      padding: 0; }
+li.taggable-input-selected-token {
+  background-color: #5670a6;
+  border: 1px solid #3b5998;
+  color: #fff; }
+li.taggable-input-input-token {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+div.taggable-input-dropdown {
+  text-align: left;
+  position: absolute;
+  width: 250px;
+  background-color: #fff;
+  overflow: hidden;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  cursor: default;
+  font-size: 11px;
+  font-family: Verdana;
+  z-index: 1; }
+
+div.taggable-input-dropdown p {
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  color: #777; }
+div.taggable-input-dropdown ul {
+  margin: 0;
+  padding: 0; }
+  div.taggable-input-dropdown ul li {
+    background-color: #fff;
+    padding: 3px;
+    margin: 0;
+    list-style-type: none; }
+    div.taggable-input-dropdown ul li.taggable-input-dropdown-item {
+      background-color: #fff; }
+    div.taggable-input-dropdown ul li.taggable-input-dropdown-item2 {
+      background-color: #fff; }
+    div.taggable-input-dropdown ul li em {
+      font-weight: bold;
+      font-style: normal; }
+    div.taggable-input-dropdown ul li.taggable-input-selected-dropdown-item {
+      background-color: #60A5D9;
+      color: #fff; }
